@@ -1,0 +1,7 @@
+21:41:39.862 [main] INFO  resources.base - successfully validated text message
+21:42:46.464 [main] INFO  resources.base - Driver is initialized
+21:43:01.973 [main] INFO  resources.base - Navigated to homepage
+21:43:23.345 [main] INFO  resources.base - Navigated to homepage
+21:43:34.177 [main] INFO  resources.base - driver is initialized
+21:43:40.027 [main] INFO  resources.base - Navigated to homepage
+21:43:40.102 [main] INFO  resources.base - successfully validated text message

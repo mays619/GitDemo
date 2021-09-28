@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 5, Time elapsed: 661.204 s <<< FAILURE! - in TestSuite
+browserOpen(Academy.validateTitle)  Time elapsed: 276.209 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAYANK', ip: '192.168.1.57', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.12'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Academy.validateTitle.browserOpen(validateTitle.java:37)
+
+browserOpen(Academy.HomePage)  Time elapsed: 276.22 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAYANK', ip: '192.168.1.57', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.12'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Academy.HomePage.browserOpen(HomePage.java:53)
+

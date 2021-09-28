@@ -1,0 +1,32 @@
+package Academy;
+
+import java.io.IOException;
+
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+import pageObject.LandingPage;
+
+import resources.base;
+
+public class validateTitle extends base {
+	//public WebDriver driver;
+	@Test
+	public void basepage() throws IOException {
+		
+
+		driver=browserInitialize();
+		driver.get(p.getProperty("url"));
+		LandingPage l=new LandingPage(driver);
+		Assert.assertEquals(l.getTitle().getText(), "Featured Courses123");
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+
+}

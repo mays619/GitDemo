@@ -1,0 +1,13 @@
+
+public class palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		String a="mayank";
+		System.out.println(a.charAt(5)+a.charAt(4)+a.charAt(3));
+		
+		
+	}
+
+}

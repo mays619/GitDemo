@@ -1,0 +1,47 @@
+package stepDefinations;
+
+import io.cucumber.java.en.And;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+
+public class stepDefination{
+	@Given("User is on Netbanking Landing Page")
+	public void user_is_on_Netbanking_Landing_Page() {
+		System.out.println("navigated to landing page");
+		
+	}
+	
+	@When("User login into application with username and password")
+	public void user_login_into_application_with_username_and_password() {
+		System.out.println("navigated to landing page");
+		
+	}@Then("Home Page is displayed")
+	public void home_Page_is_displayed() {
+		System.out.println("validated home page");
+	}
+
+	@When("User login into application with username {string} and password {string}")
+	public void user_login_into_application_with_username_and_password(String string1, String string2) {
+	   System.out.println(string1);
+	   System.out.println(string2);
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	
+	
+	@And("Cards are displayed")
+	public void cards_are_displayed() {
+		System.out.println("validated home page");
+		
+	}
+	
+	@And("Cards displayed are {boolean}")
+	public void cards_displayed_are(boolean boo) {
+	   System.out.println(boo);
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	
+	
+}

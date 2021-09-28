@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="661.204" tests="7" errors="0" skipped="5" failures="2">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Mayank-PC\Downloads\apache-maven-3.8.2-bin\apache-maven-3.8.2\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="maven.conf" value="C:\Users\Mayank-PC\Downloads\apache-maven-3.8.2-bin\apache-maven-3.8.2/conf"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dbrowser=Firefox"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\Users\Mayank-PC\Downloads\apache-maven-3.8.2-bin\apache-maven-3.8.2"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Mayank-PC"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="Mayank-PC"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="browser" value="Firefox"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MAYANK~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="D:\eclipse-workspace\E2EProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\eclipse-workspace\E2EProject"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk-11.0.12/bin;C:\Program Files\Java\jdk-11.0.12/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\TXE Components\TCS\;C:\Program Files\Intel\TXE Components\TCS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk-11.0.12\bin;C:\Users\Mayank-PC\Downloads\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="classworlds.conf" value="C:\Users\Mayank-PC\Downloads\apache-maven-3.8.2-bin\apache-maven-3.8.2\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="browserOpen" classname="Academy.validateTitle" time="276.209">
+    <failure message="No connection could be made because the target machine actively refused it. (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAYANK&apos;, ip: &apos;192.168.1.57&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAYANK', ip: '192.168.1.57', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.12'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Academy.validateTitle.browserOpen(validateTitle.java:37)
+</failure>
+    <system-err><![CDATA[11663322338844779933885588		ggeecckkooddrriivveerr		IINNFFOO		LLiisstening on 127.0.0.1:2994
+tening on 127.0.0.1:6315
+1166332328348843853953923	1m	ozrumnnozrunnerer::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MAYANK~1\\AppData\\Local\\Temp\\rust_mozprofileQTkLa2"
+::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\MAYANK~1\\AppData\\Local\\Temp\\rust_mozprofile8rKWPJ"
+16316323842949502	Marionette	INFO	Marionette enabled
+384949503	Marionette	INFO	Marionette enabled
+[GF[X1-]: KiGllFX1i-]: Knilgl GiPng GPU proU pcessroc deuse ts o dIuePC reply timeout
+ to IPC reply [GFX1-]: Failed as lost WebRenderBridgeChild.
+[GFX1-]: Fallback WR timeout
+to SW-WR + D3[GFX1-]: Failed as lost WebReD11
+[GFX1nd-]: FerBralidgeChild.
+[GFX1-]: lbacFalk SWlback-WR WR to SW-WR + D3D11
+[GFX1-]: Fallback SW-WR  + D3D11 to SW-WR
+[GFX1-]: Failed to create + remote coD3D11 to SW-WR
+[GFX1-]: Failed to create remote compositor
+mpositor
+[Parent 880, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:402
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x52001C,name=PGPU::Msg_ShutdownVR) Channel error: cannot send/recv
+
+[Parent 6208, Main Thread] WARNING: base::KillProcess refusing to terminate process handle 0: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:402
+
+###[GFX1-]: R!!! [Child][MessageChanneleceive IPC clos][e wiGtFX1-]: Receive IPC close with reason=AbnormalShutdown
+ Error: (msgtype=0x360008,name=PCompositorBridge::Msg___delete__) Channel error:
+###!!! [Child][MessageChannelh reason=AbnormalShutdown
+] Error: (msgtype=0x cannot se360008,nnd/recv
+ame=PC
+ompositorBridge::Msg___delete__) Channel error: cannot send/recv
+
+console.error: Region.jsm: "Error fetcching regoion" (new Error("TIMEOUT"n, "ressource:o/l/e.error: Region.jsgmr: "Error fetching e/modules/Region.jsm", 772))
+region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.ecrornosolr:e. Reegiornro.rjsm: :" FRaeiglieod nt.jso fetch remg:ion" (new Error("TIMEO U"TF"a, "resource://gre/modules/Regiion.jlsed tom f", 41e9tch region" (new Erro)r("TIMEOUT", "resourc)e:
+//gre/modules/Region.jsm", 419))
+ccoonnssoollee..wwaarrnn:: Se SearacrhcSheStetingtst:i n"ggest: No settings file exists, :new "get:  proNfoile ?settings file "e x(ists, nneeww NotFoundErr opr("Could not opern the file at ofilCe:?" \\Us(enerw s\\MayNaontkF-oPCu\nd\EAprpDartora\\("CLoulocald\ no\Tte openm p\\rustt_mozprhoe file file8rKWPJ\\seaartc C:h.js\\Usoen.rs\\Mayankm-PCo\z\lAppData\\Locza4", l(\void 0)))
+\Temp\\rust_mozprofileQTkLa2\\search.json.mozlz4", (void 0)))
+ccoonsonle.error: "Could snot write seossionl e.error: "Csoultd not write session staate file " (new Error("_initteW file "orker calle d too ea(rnleyw!  PElreraseor("_initWorker  creaalled too early!d Please read the s essthion fe session file from disk first.", "rieslourcee:///modu les/sessifonstore/SessionFile.jsm", 394)rom disk first.", "resourc) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:394:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:387:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:429:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:467:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modulee:///sm/sessoduleionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+s/sessionstore/SessionFile.jsm", 394)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:394:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:387:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:429:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:467:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 394)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:394:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:387:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:429:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:467:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 394)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:394:15\n_initWorker@resource:///modules/sessionstore/SessionFile.jsm:387:12\n_postToWorker@resource:///modules/sessionstore/SessionFile.jsm:429:16\nwrite@resource:///modules/sessionstore/SessionFile.jsm:467:24\nwrite@resource:///modules/sessionstore/SessionFile.jsm:75:32\n_writeState@resource:///modules/sessionstore/SessionSaver.jsm:367:24\n_saveState@resource:///modules/sessionstore/SessionSaver.jsm:301:17\n_saveStateAsync@resource:///modules/sessionstore/SessionSaver.jsm:351:10\nsaveStateAsyncWhenIdle@resource:///modules/sessionstore/SessionSaver.jsm:198:14\ncallback@resource://gre/modules/Timer.jsm:127:16\n"
+]]></system-err>
+  </testcase>
+  <testcase name="browserOpen" classname="Academy.HomePage" time="276.22">
+    <failure message="No connection could be made because the target machine actively refused it. (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAYANK&apos;, ip: &apos;192.168.1.57&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: " type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+No connection could be made because the target machine actively refused it. (os error 10061)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAYANK', ip: '192.168.1.57', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '11.0.12'
+Driver info: driver.version: FirefoxDriver
+remote stacktrace: 
+	at Academy.HomePage.browserOpen(HomePage.java:53)
+</failure>
+  </testcase>
+  <testcase name="basepage2" classname="Academy.validateTitle" time="0">
+    <skipped message="No connection could be made because the target machine actively refused it. (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAYANK&apos;, ip: &apos;192.168.1.57&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="basepage1" classname="Academy.HomePage" time="0">
+    <skipped message="No connection could be made because the target machine actively refused it. (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAYANK&apos;, ip: &apos;192.168.1.57&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="basepage1" classname="Academy.HomePage" time="0">
+    <skipped message="No connection could be made because the target machine actively refused it. (os error 10061)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MAYANK&apos;, ip: &apos;192.168.1.57&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;11.0.12&apos;&#10;Driver info: driver.version: FirefoxDriver&#10;remote stacktrace: "/>
+  </testcase>
+  <testcase name="windowClose" classname="Academy.HomePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="windowClose" classname="Academy.validateTitle" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

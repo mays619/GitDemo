@@ -1,0 +1,8 @@
+12:15:50.136 [TestNG-tests-2] INFO  resources.base - driver is initialized
+12:20:24.685 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+12:24:50.628 [TestNG-tests-1] INFO  Academy.HomePage - Driver is initialized
+12:24:50.628 [TestNG-tests-2] INFO  resources.base - driver is initialized
+12:29:46.544 [TestNG-tests-2] INFO  resources.base - driver is initialized
+12:29:46.544 [TestNG-tests-1] INFO  Academy.HomePage - Driver is initialized
+12:31:37.752 [TestNG-tests-2] INFO  resources.base - Navigated to homepage
+12:31:37.752 [TestNG-tests-1] INFO  Academy.HomePage - Navigated to homepage
